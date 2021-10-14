@@ -6,8 +6,8 @@ var arr = [10,20,30,40,50,60]
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
 */
 
-let firstItem = arr[0] 
-  console.log(firstItem)
+// let firstItem = arr[0] 
+//   console.log(firstItem)
 
 ////////// PROBLEM 2 //////////
 /*
@@ -16,10 +16,10 @@ let firstItem = arr[0]
 */
 
 
-let lastItemRemoved = arr.pop()
-  console.log(lastItemRemoved)
+// let lastItemRemoved = arr.pop()
+//   console.log(lastItemRemoved)
 
-////////// PROBLEM 3 //////////
+// ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
 var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
@@ -29,7 +29,8 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
   Loop through the 'family' array and console.log every item.
 */
 
-//Code Here
+for (let i = 0; i < family.length; i++)
+  console.log(family[i])
 
 
 
