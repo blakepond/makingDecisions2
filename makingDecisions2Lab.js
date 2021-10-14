@@ -68,16 +68,16 @@ var score = 74
 
 // if Score >= 90 = "a"
 // if Score < 90 && score < 89 = "b"
-if (score >= 90) {
-  console.log("A")
-} else if (score <= 89 && score >= 80) {
-  console.log("B")
-} else if (score <= 79 && score >= 70) {
-  console.log("C")
-} else if (score <= 69 && score >= 60) {
-  console.log("D")
-} else 
-  console.log("F")
+// if (score >= 90) {
+//   console.log("A")
+// } else if (score <= 89 && score >= 80) {
+//   console.log("B")
+// } else if (score <= 79 && score >= 70) {
+//   console.log("C")
+// } else if (score <= 69 && score >= 60) {
+//   console.log("D")
+// } else 
+//   console.log("F")
 
 
 
@@ -93,7 +93,9 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
+var someNum = myFavoriteNumbers.slice(4,myFavoriteNumbers.length -1) 
+  console.log(someNum)
+
 
 
 ////////// PROBLEM 7 //////////
